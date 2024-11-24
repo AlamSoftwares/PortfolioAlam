@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#profile_img
+{
+    border: 15px solid slategray;
+    border-radius: 50px;
+    padding: 5px;
+    transition: all 0.2s ease-in-out;
+}
+#profile_img:hover{
+    border: 15px solid rgb(77, 92, 108);
+    padding: 8px;
+}
+#profile_img div{
+    border-radius: 32px;
+}
+#title{
+    animation-name: slide1;
+    animation-duration: 1s;
+}
+
+@keyframes slide1{
+    from{
+        margin-right: 30px;
+        opacity: 0;
+    }
+    to{
+        margin-left: 20px;
+        opacity: 1;
+    }
+}
+#skill1{
+    animation-name: slide2;
+    animation-duration: 2s;
+}
+
+@keyframes slide2{
+    from{
+        margin-right: 30px;
+        opacity: 0;
+    }
+    to{
+        margin-left: 20px;
+        opacity: 1;
+    }
+}
+#skill2{
+    animation-name: slide3;
+    animation-duration: 3s;
+}
+
+@keyframes slide3{
+    from{
+        margin-right: 30px;
+        opacity: 0;
+    }
+    to{
+        margin-left: 20px;
+        opacity: 1;
+    }
+}
